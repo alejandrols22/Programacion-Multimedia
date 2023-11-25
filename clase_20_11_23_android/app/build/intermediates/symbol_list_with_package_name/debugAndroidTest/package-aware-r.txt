@@ -1,0 +1,3 @@
+com.multimedia.clase_20_11_23.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
