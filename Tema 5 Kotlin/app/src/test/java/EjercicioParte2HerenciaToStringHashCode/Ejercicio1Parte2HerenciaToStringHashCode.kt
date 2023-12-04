@@ -1,0 +1,2 @@
+package EjercicioParte2HerenciaToStringHashCode
+

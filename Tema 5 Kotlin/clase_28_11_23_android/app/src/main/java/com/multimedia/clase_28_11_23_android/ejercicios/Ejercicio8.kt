@@ -10,3 +10,12 @@ fun numeroEnCastellano(num: Int): String {
         else -> "error"
     }
 }
+
+fun main() {
+    val numerosParaProbar = listOf(1, 2, 3, 4, 5, 6) // Incluye un número fuera del rango para probar el caso 'else'
+
+    numerosParaProbar.forEach { num ->
+        println("El número $num en castellano es: ${numeroEnCastellano(num)}")
+    }
+}
+
