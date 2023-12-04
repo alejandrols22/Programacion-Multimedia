@@ -34,9 +34,13 @@ fun main() {
     empleado.realizarOperacionesGenerales()
     empleado.trabajar()
 
+    println()
+
     val producto = Producto("Portátil HP OMNIO", "Electrónica", "Madrid")
     producto.realizarOperacionesGenerales()
     producto.producir()
+
+    println()
 
     val cliente = Cliente("Microsoft", "Empresarial", "Redmond")
     cliente.realizarOperacionesGenerales()

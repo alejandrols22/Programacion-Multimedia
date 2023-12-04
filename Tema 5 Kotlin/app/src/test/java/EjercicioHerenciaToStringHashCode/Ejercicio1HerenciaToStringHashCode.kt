@@ -43,11 +43,13 @@ fun main() {
     coche.frenar()
     coche.conducir()
 
+    println()
+
     val motocicleta = Motocicleta("Ducati", "Panigale", "Deportiva")
     motocicleta.acelerar()
     motocicleta.frenar()
     motocicleta.conducir()
     motocicleta.hacerCaballito()
 
-    println("Process finished with exit code 0")
+
 }

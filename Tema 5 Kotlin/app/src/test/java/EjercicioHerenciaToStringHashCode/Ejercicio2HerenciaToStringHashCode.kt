@@ -42,6 +42,8 @@ fun main() {
     laptop.apagar()
     laptop.ejecutar()
 
+    println()
+
     val impresora = Impresora("Epson EcoTank", 299.99, "Inyección de tinta")
     impresora.encender()
     impresora.apagar()
