@@ -23,22 +23,22 @@
 
 
     <Button
-        android:id="@+id/btnAceptar"
+        android:id="@+id/btnIzquierda"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Aceptar"
+        android:layout_marginStart="20dp"
+        android:text="Boton Izquierda"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btnCancelar"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent" />
 
     <Button
-        android:id="@+id/btnCancelar"
+        android:id="@+id/btnDerecha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cancelar"
-        app:layout_constraintStart_toStartOf="@id/btnAceptar"
-        app:layout_constraintEnd_toStartOf="@id/btnCancelar"
+        android:layout_marginEnd="20dp"
+        android:text="Boton Derecha"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent" />
 
