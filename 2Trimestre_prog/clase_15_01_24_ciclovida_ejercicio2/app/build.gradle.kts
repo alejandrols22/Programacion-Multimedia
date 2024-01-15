@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.multimedia.clase_15_01_24_ejercicioextra"
+    namespace = "com.multimedia.clase_15_01_24_ciclovida_ejercicio2"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.multimedia.clase_15_01_24_ejercicioextra"
+        applicationId = "com.multimedia.clase_15_01_24_ciclovida_ejercicio2"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
