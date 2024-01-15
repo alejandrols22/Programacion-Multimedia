@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ejercicios.ResultadoEjercicio6DosActivity">
+    tools:context=".ejercicios.ResultadoEjercicio7">
     <ImageView
         android:id="@+id/imagen_fondo"
         android:layout_width="match_parent"
