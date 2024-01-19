@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvPregunta1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pregunta 1: ¿Cuál es la capital de Francia?"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnRespuestaCorrecta1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="París"
+        android:onClick="comprobarRespuesta"
+        android:layout_below="@id/tvPregunta1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnRespuestaIncorrecta1_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Londres"
+        android:onClick="comprobarRespuesta"
+        android:layout_below="@id/btnRespuestaCorrecta1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnRespuestaIncorrecta1_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berlín"
+        android:onClick="comprobarRespuesta"
+        android:layout_below="@id/btnRespuestaIncorrecta1_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+</RelativeLayout>

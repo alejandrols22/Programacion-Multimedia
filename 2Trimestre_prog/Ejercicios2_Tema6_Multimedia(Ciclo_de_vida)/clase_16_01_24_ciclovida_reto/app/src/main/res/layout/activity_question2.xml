@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvPregunta2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pregunta 2: ¿Cuántos continentes hay en el mundo?"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnRespuestaCorrecta2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siete"
+        android:onClick="comprobarRespuesta"
+        android:layout_below="@id/tvPregunta2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnRepuestaIncorrecta2_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seis"
+        android:onClick="comprobarRespuesta"
+        android:layout_below="@id/btnRespuestaCorrecta2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnRespuestaIncorrecta2_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cinco"
+        android:onClick="comprobarRespuesta"
+        android:layout_below="@id/btnRepuestaIncorrecta2_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+</RelativeLayout>
