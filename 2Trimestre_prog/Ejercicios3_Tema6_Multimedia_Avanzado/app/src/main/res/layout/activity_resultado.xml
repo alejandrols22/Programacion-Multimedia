@@ -80,7 +80,7 @@
     </androidx.cardview.widget.CardView>
 
     <Button
-        android:id="@+id/botonCalcular"
+        android:id="@+id/botonRECalcular"
         android:layout_width="385dp"
         android:layout_height="48dp"
         android:background="@color/purple_700"

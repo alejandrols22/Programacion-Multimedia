@@ -51,6 +51,7 @@
         app:cardBackgroundColor="@color/teal_200"
         app:layout_constraintStart_toEndOf="@+id/cardView1"
         app:layout_constraintEnd_toEndOf="parent"
+        android:clickable="true"
         tools:ignore="MissingConstraints">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -83,6 +84,7 @@
         android:layout_height="150dp"
         android:layout_marginTop="16dp"
         app:cardCornerRadius="16dp"
+        android:clickable="true"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/cardView4"
         app:layout_constraintTop_toBottomOf="@id/cardView1"
