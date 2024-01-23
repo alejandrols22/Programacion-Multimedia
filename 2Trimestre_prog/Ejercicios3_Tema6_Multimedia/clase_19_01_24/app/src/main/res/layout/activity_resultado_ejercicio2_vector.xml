@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:text="Ingresos al mes: "
         android:textColor="@android:color/black"
-        android:textSize="18sp"
+        android:textSize="38sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintHorizontal_bias="0.05"
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:text="Edad: "
         android:textColor="@android:color/black"
-        android:textSize="18sp"
+        android:textSize="38sp"
         app:layout_constraintStart_toStartOf="@id/tvIngresosResultado"
         app:layout_constraintTop_toBottomOf="@id/tvIngresosResultado"
         app:layout_constraintVertical_bias="0.05" />
@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:text="Último CardView pulsado: "
         android:textColor="@android:color/black"
-        android:textSize="18sp"
+        android:textSize="38sp"
         app:layout_constraintStart_toStartOf="@id/tvEdadResultado"
         app:layout_constraintTop_toBottomOf="@id/tvEdadResultado"
         app:layout_constraintVertical_bias="0.05" />
