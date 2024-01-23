@@ -1,6 +1,5 @@
 package com.multimedia.clase_22_01_24.ejercicios
 
-
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
@@ -8,10 +7,6 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.multimedia.clase_22_01_24.R
 import java.util.Locale
-
-
-
-
 
 class ResultadoActivity : AppCompatActivity() {
     private var textViewClasificacionIMC: TextView? = null
@@ -27,9 +22,9 @@ class ResultadoActivity : AppCompatActivity() {
         textViewValorIMC = findViewById(R.id.textViewValorIMC)
         textViewDescripcionIMC = findViewById(R.id.textViewDescripcionIMC)
 
-        // Supongamos que estos valores vienen de la otra actividad donde el usuario los ingresó
-        val peso = 70.0 // Peso en kilogramos
-        val altura = 170.0 // Altura en centímetros
+        // Obtiene los valores pasados desde MainActivity
+        val peso = intent.getDoubleExtra("PESO", 0.0) // Peso en kilogramos
+        val altura = intent.getDoubleExtra("ALTURA", 0.0) // Altura en centímetros
 
         // Calcula el IMC
         val imc = calcularIMC(peso, altura)
@@ -37,7 +32,7 @@ class ResultadoActivity : AppCompatActivity() {
         // Actualiza la UI con el IMC y la clasificación
         mostrarResultados(imc)
 
-        // Configurar el botón RE-CALCULAR
+        // Configura el botón RE-CALCULAR para volver a MainActivity
         val botonReCalcular = findViewById<Button>(R.id.botonRECalcular)
         botonReCalcular.setOnClickListener {
             volverAMainActivity()
@@ -90,6 +85,6 @@ class ResultadoActivity : AppCompatActivity() {
     private fun volverAMainActivity() {
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
-        finish() // Opcional: Cierra esta actividad
+        finish() // Cierra esta actividad
     }
 }
