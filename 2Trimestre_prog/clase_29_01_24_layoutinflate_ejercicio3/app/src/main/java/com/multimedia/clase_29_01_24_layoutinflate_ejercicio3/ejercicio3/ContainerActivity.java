@@ -1,7 +1,6 @@
 package com.multimedia.clase_29_01_24_layoutinflate_ejercicio3.ejercicio3;
 
 
-
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
