@@ -14,16 +14,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val alumnoList = generateAlumnoList()
+        val listaAlumnos = generateAlumnoList()
 
         val recyclerView: RecyclerView = findViewById(R.id.recyclerView)
         recyclerView.layoutManager = LinearLayoutManager(this)
 
-        val alumnoAdapter = AlumnoAdapter(alumnoList)
-        recyclerView.adapter = alumnoAdapter
+        val adaptadorAlumnos = AlumnoAdapter(listaAlumnos)
+        recyclerView.adapter = adaptadorAlumnos
     }
-
-
 
     private fun generateAlumnoList(): List<Alumno> {
         return listOf(
@@ -38,8 +36,6 @@ class MainActivity : AppCompatActivity() {
             Alumno("Jose","Android","29","Programacion de Servicios y Productos", "2ªDAW","8"),
             Alumno("Manuel", "Oracle","19","Sistemas Informaticos", "1ªDAM","2"),
             Alumno("Diana","Hibernate","20","Aplicaciones Web","1ªDAW","0")
-
-
 
         )
     }
