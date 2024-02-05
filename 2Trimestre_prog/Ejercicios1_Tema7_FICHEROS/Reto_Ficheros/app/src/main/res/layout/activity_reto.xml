@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RetoActivity">
+
+    <EditText
+        android:id="@+id/etTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe algo aquí..." />
+
+    <RadioGroup
+        android:id="@+id/rgAlmacenamiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etTexto"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbInterna"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Memoria Interna"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/rbExterna"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Memoria Externa" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:layout_below="@id/rgAlmacenamiento" />
+
+    <Button
+        android:id="@+id/btnLeer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leer"
+        android:layout_below="@id/btnGuardar" />
+
+    <TextView
+        android:id="@+id/tvContenido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnLeer"
+        android:text="Contenido del archivo" />
+
+</RelativeLayout>
