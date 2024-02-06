@@ -8,8 +8,6 @@ import android.view.View
 import com.multimedia.clase_15_01_24_ciclovida.R
 
 
-
-
     class MainActivity : AppCompatActivity() {
         override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)
