@@ -28,12 +28,13 @@ class DataManager(private val context: Context) {
         val alumnos = StringBuilder()
 
         while (cursor.moveToNext()) {
+            val id = cursor.getInt(cursor.getColumnIndex(DatabaseHelper.COLUMNA_ID))
             val nombre = cursor.getString(cursor.getColumnIndex(DatabaseHelper.COLUMNA_NOMBRE))
             val apellidos = cursor.getString(cursor.getColumnIndex(DatabaseHelper.COLUMNA_APELLIDOS))
             val dni = cursor.getString(cursor.getColumnIndex(DatabaseHelper.COLUMNA_DNI))
             val edad = cursor.getInt(cursor.getColumnIndex(DatabaseHelper.COLUMNA_EDAD))
             val curso = cursor.getString(cursor.getColumnIndex(DatabaseHelper.COLUMNA_CURSO))
-            alumnos.append("Nombre: $nombre, Apellidos: $apellidos, DNI: $dni, Edad: $edad, Curso: $curso\n")
+            alumnos.append("ID: $id, Nombre: $nombre, Apellidos: $apellidos, DNI: $dni, Edad: $edad, Curso: $curso\n")
         }
 
         cursor.close()
