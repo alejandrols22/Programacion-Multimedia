@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "392100564356",
+    "project_id": "proyectofirebase-b2484",
+    "storage_bucket": "proyectofirebase-b2484.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392100564356:android:97b6ff27fc3fb4e28b21d1",
+        "android_client_info": {
+          "package_name": "com.multimeda.ejercicio2bbdd_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVj5URYyLwIf1tXSUEqSjHpmfO8CsUYws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
