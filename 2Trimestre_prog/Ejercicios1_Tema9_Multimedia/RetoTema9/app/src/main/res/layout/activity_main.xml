@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ejercicio.MainActivity">
+
+    <!-- ImageView para Desplazamiento -->
+    <ImageView
+        android:id="@+id/imageViewDesplazamiento"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/imagen_desplazamiento"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/imageViewRotacion"
+        app:layout_constraintBottom_toTopOf="@id/imageViewEscala"
+        android:contentDescription="@string/desplazamiento" />
+
+    <!-- ImageView para Rotación -->
+    <ImageView
+        android:id="@+id/imageViewRotacion"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/imagen_rotacion"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imageViewDesplazamiento"
+        app:layout_constraintBottom_toTopOf="@id/imageViewTransparencia"
+        android:contentDescription="@string/rotacion" />
+
+    <!-- ImageView para Escala -->
+    <ImageView
+        android:id="@+id/imageViewEscala"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/imagen_escala"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/imageViewTransparencia"
+        app:layout_constraintTop_toBottomOf="@id/imageViewDesplazamiento"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:contentDescription="@string/escala" />
+
+    <!-- ImageView para Transparencia -->
+    <ImageView
+        android:id="@+id/imageViewTransparencia"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/imagen_transparencia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imageViewEscala"
+        app:layout_constraintTop_toBottomOf="@id/imageViewRotacion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:contentDescription="@string/transparencia" />
+</androidx.constraintlayout.widget.ConstraintLayout>

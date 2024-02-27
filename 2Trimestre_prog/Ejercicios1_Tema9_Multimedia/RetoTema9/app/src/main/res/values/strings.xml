@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RetoTema9</string>
+    <string name="rotacion">rotacion</string>
+    <string name="desplazamiento">desplazamiento</string>
+    <string name="escala">escala</string>
+    <string name="transparencia">transparencia</string>
+</resources>
