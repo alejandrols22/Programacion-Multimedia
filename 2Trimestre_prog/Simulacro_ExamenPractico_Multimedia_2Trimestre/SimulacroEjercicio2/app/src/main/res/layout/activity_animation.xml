@@ -5,10 +5,10 @@
     android:padding="16dp">
 
     <ImageView
-        android:id="@+id/animatedImageView"
+        android:id="@+id/imageViewToAnimate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/your_animation_drawable"
+        android:src="@drawable/coche"
         android:layout_centerInParent="true"/>
-
 </RelativeLayout>
+

@@ -16,52 +16,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4aed0744-be52-49a3-a189-90d82f6171d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Ejercicios3_Tema7_BBDD_Firebase/Ejercicio3BBDD_Firebase/.idea/deploymentTargetDropDown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Ejercicios3_Tema7_BBDD_Firebase/Ejercicio3BBDD_Firebase/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/.idea/deploymentTargetDropDown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/.idea/migrations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/app/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/app/src/androidTest/java/com/multimedia/simulacroejercicio2/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/app/src/test/java/com/multimedia/simulacroejercicio2/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulacroEjercicio2/settings.gradle.kts" afterDir="false" />
-    </list>
+    <list default="true" id="4aed0744-be52-49a3-a189-90d82f6171d4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,9 +53,10 @@
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "project.structure.last.edited": "Variables",
+    "last_opened_file_path": "C:/2DAM/Programacion Multimedia/2Trimestre_prog/Simulacro_ExamenPractico_Multimedia_2Trimestre/SimulacroEjercicio2",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">

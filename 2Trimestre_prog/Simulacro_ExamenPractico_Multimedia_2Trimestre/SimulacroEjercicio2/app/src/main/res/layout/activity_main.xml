@@ -7,26 +7,81 @@
     android:gravity="center_horizontal">
 
     <Button
-        android:id="@+id/btnVideos"
+        android:id="@+id/btnVideo1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ver Videos"
-        android:marginBottom="16dp"/>
+        android:text="Ver Video 1"
+        android:layout_marginBottom="8dp"/>
 
     <Button
-        android:id="@+id/btnAnimations"
+        android:id="@+id/btnVideo2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ver Animaciones"
-        android:marginBottom="16dp"/>
+        android:text="Ver Video 2"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnVideo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver Video 3"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnAnimation1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animación 1"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnAnimation2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animación 2"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnAnimation3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animación 3"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnShowDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Diálogo"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnOpenCardViewActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abrir CardView Activity"
+        android:layout_margin="16dp"
+        />
+
 
     <Button
         android:id="@+id/btnCaptureName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Capturar Nombre"
-        android:marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"/>
 
-    <!-- Agrega aquí más botones para las otras funcionalidades como se necesite -->
+    <Button
+        android:id="@+id/btnDatePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccionar Fecha"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnTimePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccionar Hora"
+        android:layout_marginBottom="16dp"/>
 </LinearLayout>
-
